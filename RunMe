@@ -1,0 +1,4 @@
+./CNF.py
+javac CKY.java
+java CKY
+cat fixedgrammar.txt

@@ -1,0 +1,1118 @@
+light cars fly
+
+1 parse(s):
+
+S
+|--NP
+|  |--N
+|  |  |__light
+|  |__NBar
+|     |__cars
+|__VP
+   |__fly
+
+
+light green cars fly
+
+0 parse(s):
+
+
+the man gave a baby a car
+
+1 parse(s):
+
+S
+|--NP
+|  |--Det
+|  |  |__the
+|  |__NBar
+|     |__man
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__gave
+   |  |__NP
+   |     |--Det
+   |     |  |__a
+   |     |__NBar
+   |        |__baby
+   |__NP
+      |--Det
+      |  |__a
+      |__NBar
+         |__car
+
+
+the baby put the man on the truck
+
+3 parse(s):
+
+S
+|--NP
+|  |--Det
+|  |  |__the
+|  |__NBar
+|     |__baby
+|__VP
+   |--V
+   |  |__put
+   |__NP
+      |--NP
+      |  |--Det
+      |  |  |__the
+      |  |__NBar
+      |     |__man
+      |__PP
+         |--Prep
+         |  |__on
+         |__NP
+            |--Det
+            |  |__the
+            |__NBar
+               |__truck
+
+S
+|--NP
+|  |--Det
+|  |  |__the
+|  |__NBar
+|     |__baby
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__put
+   |  |__NP
+   |     |--Det
+   |     |  |__the
+   |     |__NBar
+   |        |__man
+   |__PP
+      |--Prep
+      |  |__on
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__truck
+
+S
+|--NP
+|  |--Det
+|  |  |__the
+|  |__NBar
+|     |__baby
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__put
+   |  |__NP
+   |     |--Det
+   |     |  |__the
+   |     |__NBar
+   |        |__man
+   |__PP
+      |--Prep
+      |  |__on
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__truck
+
+
+the baby hit the truck with the car
+
+3 parse(s):
+
+S
+|--NP
+|  |--Det
+|  |  |__the
+|  |__NBar
+|     |__baby
+|__VP
+   |--V
+   |  |__hit
+   |__NP
+      |--NP
+      |  |--Det
+      |  |  |__the
+      |  |__NBar
+      |     |__truck
+      |__PP
+         |--Prep
+         |  |__with
+         |__NP
+            |--Det
+            |  |__the
+            |__NBar
+               |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__the
+|  |__NBar
+|     |__baby
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--Det
+   |     |  |__the
+   |     |__NBar
+   |        |__truck
+   |__PP
+      |--Prep
+      |  |__with
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__the
+|  |__NBar
+|     |__baby
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--Det
+   |     |  |__the
+   |     |__NBar
+   |        |__truck
+   |__PP
+      |--Prep
+      |  |__with
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+
+the man at the light green light put the baby in a car
+
+0 parse(s):
+
+
+cars like a truck like a light baby
+
+10 parse(s):
+
+S
+|--NP
+|  |--NP
+|  |  |__cars
+|  |__PP
+|     |--Prep
+|     |  |__like
+|     |__NP
+|        |--Det
+|        |  |__a
+|        |__NBar
+|           |__truck
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__like
+   |  |__NP
+   |     |--Det
+   |     |  |__a
+   |     |__NBar
+   |        |__light
+   |__NP
+      |__baby
+
+S
+|--NP
+|  |--NP
+|  |  |__cars
+|  |__PP
+|     |--Prep
+|     |  |__like
+|     |__NP
+|        |--Det
+|        |  |__a
+|        |__NBar
+|           |__truck
+|__VP
+   |--V
+   |  |__like
+   |__NP
+      |--Det
+      |  |__a
+      |__NBar
+         |--N
+         |  |__light
+         |__NBar
+            |__baby
+
+S
+|--NP
+|  |--NP
+|  |  |__cars
+|  |__PP
+|     |--Prep
+|     |  |__like
+|     |__NP
+|        |--Det
+|        |  |__a
+|        |__NBar
+|           |__truck
+|__VP
+   |--V
+   |  |__like
+   |__NP
+      |--DetAdj
+      |  |--Det
+      |  |  |__a
+      |  |__Adj
+      |     |__light
+      |__NBar
+         |__baby
+
+S
+|--NP
+|  |__cars
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__like
+   |  |__NP
+   |     |--NP
+   |     |  |--Det
+   |     |  |  |__a
+   |     |  |__NBar
+   |     |     |__truck
+   |     |__PP
+   |        |--Prep
+   |        |  |__like
+   |        |__NP
+   |           |--Det
+   |           |  |__a
+   |           |__NBar
+   |              |__light
+   |__NP
+      |__baby
+
+S
+|--NP
+|  |__cars
+|__VP
+   |--V
+   |  |__like
+   |__NP
+      |--NP
+      |  |--Det
+      |  |  |__a
+      |  |__NBar
+      |     |__truck
+      |__PP
+         |--Prep
+         |  |__like
+         |__NP
+            |--Det
+            |  |__a
+            |__NBar
+               |--N
+               |  |__light
+               |__NBar
+                  |__baby
+
+S
+|--NP
+|  |__cars
+|__VP
+   |--V
+   |  |__like
+   |__NP
+      |--NP
+      |  |--Det
+      |  |  |__a
+      |  |__NBar
+      |     |__truck
+      |__PP
+         |--Prep
+         |  |__like
+         |__NP
+            |--DetAdj
+            |  |--Det
+            |  |  |__a
+            |  |__Adj
+            |     |__light
+            |__NBar
+               |__baby
+
+S
+|--NP
+|  |__cars
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__like
+   |  |__NP
+   |     |--Det
+   |     |  |__a
+   |     |__NBar
+   |        |__truck
+   |__PP
+      |--Prep
+      |  |__like
+      |__NP
+         |--Det
+         |  |__a
+         |__NBar
+            |--N
+            |  |__light
+            |__NBar
+               |__baby
+
+S
+|--NP
+|  |__cars
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__like
+   |  |__NP
+   |     |--Det
+   |     |  |__a
+   |     |__NBar
+   |        |__truck
+   |__PP
+      |--Prep
+      |  |__like
+      |__NP
+         |--DetAdj
+         |  |--Det
+         |  |  |__a
+         |  |__Adj
+         |     |__light
+         |__NBar
+            |__baby
+
+S
+|--NP
+|  |__cars
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__like
+   |  |__NP
+   |     |--Det
+   |     |  |__a
+   |     |__NBar
+   |        |__truck
+   |__PP
+      |--Prep
+      |  |__like
+      |__NP
+         |--Det
+         |  |__a
+         |__NBar
+            |--N
+            |  |__light
+            |__NBar
+               |__baby
+
+S
+|--NP
+|  |__cars
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__like
+   |  |__NP
+   |     |--Det
+   |     |  |__a
+   |     |__NBar
+   |        |__truck
+   |__PP
+      |--Prep
+      |  |__like
+      |__NP
+         |--DetAdj
+         |  |--Det
+         |  |  |__a
+         |  |__Adj
+         |     |__light
+         |__NBar
+            |__baby
+
+
+a light baby hit a green man with a truck in the car
+
+16 parse(s):
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--V
+   |  |__hit
+   |__NP
+      |--NP
+      |  |--NP
+      |  |  |--DetAdj
+      |  |  |  |--Det
+      |  |  |  |  |__a
+      |  |  |  |__Adj
+      |  |  |     |__green
+      |  |  |__NBar
+      |  |     |__man
+      |  |__PP
+      |     |--Prep
+      |     |  |__with
+      |     |__NP
+      |        |--Det
+      |        |  |__a
+      |        |__NBar
+      |           |__truck
+      |__PP
+         |--Prep
+         |  |__in
+         |__NP
+            |--Det
+            |  |__the
+            |__NBar
+               |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--V
+   |  |__hit
+   |__NP
+      |--NP
+      |  |--DetAdj
+      |  |  |--Det
+      |  |  |  |__a
+      |  |  |__Adj
+      |  |     |__green
+      |  |__NBar
+      |     |__man
+      |__PP
+         |--Prep
+         |  |__with
+         |__NP
+            |--NP
+            |  |--Det
+            |  |  |__a
+            |  |__NBar
+            |     |__truck
+            |__PP
+               |--Prep
+               |  |__in
+               |__NP
+                  |--Det
+                  |  |__the
+                  |__NBar
+                     |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--NP
+   |     |  |--DetAdj
+   |     |  |  |--Det
+   |     |  |  |  |__a
+   |     |  |  |__Adj
+   |     |  |     |__green
+   |     |  |__NBar
+   |     |     |__man
+   |     |__PP
+   |        |--Prep
+   |        |  |__with
+   |        |__NP
+   |           |--Det
+   |           |  |__a
+   |           |__NBar
+   |              |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--VP
+   |  |--VP
+   |  |  |--V
+   |  |  |  |__hit
+   |  |  |__NP
+   |  |     |--DetAdj
+   |  |     |  |--Det
+   |  |     |  |  |__a
+   |  |     |  |__Adj
+   |  |     |     |__green
+   |  |     |__NBar
+   |  |        |__man
+   |  |__PP
+   |     |--Prep
+   |     |  |__with
+   |     |__NP
+   |        |--Det
+   |        |  |__a
+   |        |__NBar
+   |           |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--VP
+   |  |--VNP
+   |  |  |--V
+   |  |  |  |__hit
+   |  |  |__NP
+   |  |     |--DetAdj
+   |  |     |  |--Det
+   |  |     |  |  |__a
+   |  |     |  |__Adj
+   |  |     |     |__green
+   |  |     |__NBar
+   |  |        |__man
+   |  |__PP
+   |     |--Prep
+   |     |  |__with
+   |     |__NP
+   |        |--Det
+   |        |  |__a
+   |        |__NBar
+   |           |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--DetAdj
+   |     |  |--Det
+   |     |  |  |__a
+   |     |  |__Adj
+   |     |     |__green
+   |     |__NBar
+   |        |__man
+   |__PP
+      |--Prep
+      |  |__with
+      |__NP
+         |--NP
+         |  |--Det
+         |  |  |__a
+         |  |__NBar
+         |     |__truck
+         |__PP
+            |--Prep
+            |  |__in
+            |__NP
+               |--Det
+               |  |__the
+               |__NBar
+                  |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--NP
+   |     |  |--DetAdj
+   |     |  |  |--Det
+   |     |  |  |  |__a
+   |     |  |  |__Adj
+   |     |  |     |__green
+   |     |  |__NBar
+   |     |     |__man
+   |     |__PP
+   |        |--Prep
+   |        |  |__with
+   |        |__NP
+   |           |--Det
+   |           |  |__a
+   |           |__NBar
+   |              |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--Det
+|  |  |__a
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |__baby
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--DetAdj
+   |     |  |--Det
+   |     |  |  |__a
+   |     |  |__Adj
+   |     |     |__green
+   |     |__NBar
+   |        |__man
+   |__PP
+      |--Prep
+      |  |__with
+      |__NP
+         |--NP
+         |  |--Det
+         |  |  |__a
+         |  |__NBar
+         |     |__truck
+         |__PP
+            |--Prep
+            |  |__in
+            |__NP
+               |--Det
+               |  |__the
+               |__NBar
+                  |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--V
+   |  |__hit
+   |__NP
+      |--NP
+      |  |--NP
+      |  |  |--DetAdj
+      |  |  |  |--Det
+      |  |  |  |  |__a
+      |  |  |  |__Adj
+      |  |  |     |__green
+      |  |  |__NBar
+      |  |     |__man
+      |  |__PP
+      |     |--Prep
+      |     |  |__with
+      |     |__NP
+      |        |--Det
+      |        |  |__a
+      |        |__NBar
+      |           |__truck
+      |__PP
+         |--Prep
+         |  |__in
+         |__NP
+            |--Det
+            |  |__the
+            |__NBar
+               |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--V
+   |  |__hit
+   |__NP
+      |--NP
+      |  |--DetAdj
+      |  |  |--Det
+      |  |  |  |__a
+      |  |  |__Adj
+      |  |     |__green
+      |  |__NBar
+      |     |__man
+      |__PP
+         |--Prep
+         |  |__with
+         |__NP
+            |--NP
+            |  |--Det
+            |  |  |__a
+            |  |__NBar
+            |     |__truck
+            |__PP
+               |--Prep
+               |  |__in
+               |__NP
+                  |--Det
+                  |  |__the
+                  |__NBar
+                     |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--NP
+   |     |  |--DetAdj
+   |     |  |  |--Det
+   |     |  |  |  |__a
+   |     |  |  |__Adj
+   |     |  |     |__green
+   |     |  |__NBar
+   |     |     |__man
+   |     |__PP
+   |        |--Prep
+   |        |  |__with
+   |        |__NP
+   |           |--Det
+   |           |  |__a
+   |           |__NBar
+   |              |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--VP
+   |  |--VP
+   |  |  |--V
+   |  |  |  |__hit
+   |  |  |__NP
+   |  |     |--DetAdj
+   |  |     |  |--Det
+   |  |     |  |  |__a
+   |  |     |  |__Adj
+   |  |     |     |__green
+   |  |     |__NBar
+   |  |        |__man
+   |  |__PP
+   |     |--Prep
+   |     |  |__with
+   |     |__NP
+   |        |--Det
+   |        |  |__a
+   |        |__NBar
+   |           |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--VP
+   |  |--VNP
+   |  |  |--V
+   |  |  |  |__hit
+   |  |  |__NP
+   |  |     |--DetAdj
+   |  |     |  |--Det
+   |  |     |  |  |__a
+   |  |     |  |__Adj
+   |  |     |     |__green
+   |  |     |__NBar
+   |  |        |__man
+   |  |__PP
+   |     |--Prep
+   |     |  |__with
+   |     |__NP
+   |        |--Det
+   |        |  |__a
+   |        |__NBar
+   |           |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--VP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--DetAdj
+   |     |  |--Det
+   |     |  |  |__a
+   |     |  |__Adj
+   |     |     |__green
+   |     |__NBar
+   |        |__man
+   |__PP
+      |--Prep
+      |  |__with
+      |__NP
+         |--NP
+         |  |--Det
+         |  |  |__a
+         |  |__NBar
+         |     |__truck
+         |__PP
+            |--Prep
+            |  |__in
+            |__NP
+               |--Det
+               |  |__the
+               |__NBar
+                  |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--NP
+   |     |  |--DetAdj
+   |     |  |  |--Det
+   |     |  |  |  |__a
+   |     |  |  |__Adj
+   |     |  |     |__green
+   |     |  |__NBar
+   |     |     |__man
+   |     |__PP
+   |        |--Prep
+   |        |  |__with
+   |        |__NP
+   |           |--Det
+   |           |  |__a
+   |           |__NBar
+   |              |__truck
+   |__PP
+      |--Prep
+      |  |__in
+      |__NP
+         |--Det
+         |  |__the
+         |__NBar
+            |__car
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__light
+|  |__NBar
+|     |__baby
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--DetAdj
+   |     |  |--Det
+   |     |  |  |__a
+   |     |  |__Adj
+   |     |     |__green
+   |     |__NBar
+   |        |__man
+   |__PP
+      |--Prep
+      |  |__with
+      |__NP
+         |--NP
+         |  |--Det
+         |  |  |__a
+         |  |__NBar
+         |     |__truck
+         |__PP
+            |--Prep
+            |  |__in
+            |__NP
+               |--Det
+               |  |__the
+               |__NBar
+                  |__car
+
+
+a light green car that hit the truck with cars and a baby
+
+0 parse(s):
+
+
+a green light car truck hit a baby a man
+
+1 parse(s):
+
+S
+|--NP
+|  |--DetAdj
+|  |  |--Det
+|  |  |  |__a
+|  |  |__Adj
+|  |     |__green
+|  |__NBar
+|     |--N
+|     |  |__light
+|     |__NBar
+|        |--N
+|        |  |__car
+|        |__NBar
+|           |__truck
+|__VP
+   |--VNP
+   |  |--V
+   |  |  |__hit
+   |  |__NP
+   |     |--Det
+   |     |  |__a
+   |     |__NBar
+   |        |__baby
+   |__NP
+      |--Det
+      |  |__a
+      |__NBar
+         |__man
+
+
